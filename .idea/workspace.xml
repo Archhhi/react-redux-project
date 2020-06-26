@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3bfd9925-d026-4dc1-8bfe-3986659ba4b4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/react-redux-project/src/api/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-project/src/assets/images/35.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-project/src/assets/images/archi-15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-project/src/components/Dialogs/AddMessageForm/AddMessageForm.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-project/src/components/Dialogs/Dialogs.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-project/src/components/Dialogs/Dialogs.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-project/src/components/Dialogs/DialogsContainer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-project/src/components/Dialogs/DialogsItem/DialogsItem.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-project/src/components/Dialogs/Message/Message.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-project/src/components/Header/Header.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-project/src/components/Header/Header.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-project/src/components/Header/HeaderContainer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-project/src/components/Login/LoginPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-project/src/components/Music/Music.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-project/src/components/Music/Music.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-project/src/components/Navbar/Nav.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-project/src/components/Navbar/Nav.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-project/src/components/News/News.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-project/src/components/News/News.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-project/src/components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-project/src/components/Profile/MyPosts/MyPosts.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-project/src/components/Profile/MyPosts/MyPostsContainer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-project/src/components/Profile/MyPosts/Post/Post.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-project/src/components/Profile/MyPosts/Post/Post.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-project/src/components/Profile/Profile.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-project/src/components/Profile/Profile.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-project/src/components/Profile/ProfileContainer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-project/src/components/Profile/ProfileInfo/ProfileInfo.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-project/src/components/Profile/ProfileInfo/ProfileInfo.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-project/src/components/Profile/ProfileInfo/ProfileStatus.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-project/src/components/Profile/ProfileInfo/ProfileStatus.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-project/src/components/Profile/ProfileInfo/ProfileStatusWithHooks.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-project/src/components/Settings/Settings.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-project/src/components/Settings/Settings.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-project/src/components/Users/User.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-project/src/components/Users/Users.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-project/src/components/Users/UsersContainer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-project/src/components/Users/users.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-project/src/components/common/FormsControls/FormControls.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-project/src/components/common/FormsControls/FormsControls.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-project/src/components/common/Paginator/Paginator.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-project/src/components/common/Paginator/Paginator.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-project/src/components/common/Paginator/Paginator.test.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-project/src/components/common/Preloader/Preloader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-project/src/components/utils/validators/object-helpers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-project/src/components/utils/validators/validators.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-project/src/hoc/withAuthRedirect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-project/src/hoc/withSuspense.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-project/src/redux/app-reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-project/src/redux/auth-reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-project/src/redux/dialogs-reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-project/src/redux/profile-reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-project/src/redux/profile-reducer.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-project/src/redux/store-redux.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-project/src/redux/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-project/src/redux/users-reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-project/src/redux/users-selectors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-redux-project/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-redux-project/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/react-redux-project/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-redux-project/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/react-redux-project/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-redux-project/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/react-redux-project/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-redux-project/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-redux-project/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-redux-project/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-redux-project/src/App.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-redux-project/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-redux-project/src/index.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/react-redux-project" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="ProjectId" id="1afCP8maZcoRLy1g4KuqEsncDcT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/react-redux-project/src/hoc" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/react-redux-project/node_modules/react-scripts" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\social-network\react-redux-project\src\hoc" />
+      <recent name="C:\social-network\react-redux-project\src\components\Profile\ProfileInfo" />
+      <recent name="C:\it-kamasutra.com\react-kbazda-kak-prosto\projects\01-first-project\react-kabzda-1\src\components\Login" />
+      <recent name="C:\it-kamasutra.com\react-kbazda-kak-prosto\projects\01-first-project\react-kabzda-1\src\redux" />
+      <recent name="C:\it-kamasutra.com\react-kbazda-kak-prosto\projects\01-first-project\react-kabzda-1\src\components\Header" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\it-kamasutra.com\react-kbazda-kak-prosto\projects\01-first-project\react-kabzda-1\src\components\Profile\MyPosts\Post" />
+      <recent name="C:\it-kamasutra.com\react-kbazda-kak-prosto\projects\01-first-project\react-kabzda-1\src\components\Profile" />
+      <recent name="C:\it-kamasutra.com\react-kbazda-kak-prosto\projects\01-first-project\react-kabzda-1\src\components\Navbar" />
+      <recent name="C:\it-kamasutra.com\react-kbazda-kak-prosto\projects\01-first-project\react-kabzda-1\src\components\Header" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.deploy">
+    <configuration name="Paginator component tests.if pages count is more then 10 button NEXT should be present" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/react-redux-project/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$/react-redux-project" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/react-redux-project/src/components/common/Paginator/Paginator.test.jsx" />
+      <test-names>
+        <test-name value="Paginator component tests" />
+        <test-name value="if pages count is more then 10 button NEXT should be present" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Paginator component tests.pages count is 11 but should be showed only 10" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/react-redux-project/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$/react-redux-project" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/react-redux-project/src/components/common/Paginator/Paginator.test.jsx" />
+      <test-names>
+        <test-name value="Paginator component tests" />
+        <test-name value="pages count is 11 but should be showed only 10" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="ProfileStatus component.callback should be called" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/react-redux-project/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$/react-redux-project" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/react-redux-project/src/components/Profile/ProfileInfo/ProfileStatus.test.js" />
+      <test-names>
+        <test-name value="ProfileStatus component" />
+        <test-name value="callback should be called" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="ProfileStatus component.status from props should be in the state" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/react-redux-project/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$/react-redux-project" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/react-redux-project/src/components/Profile/ProfileInfo/ProfileStatus.test.js" />
+      <test-names>
+        <test-name value="ProfileStatus component" />
+        <test-name value="status from props should be in the state" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/react-redux-project/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="deploy" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.deploy" />
+        <item itemvalue="Jest.Paginator component tests.if pages count is more then 10 button NEXT should be present" />
+        <item itemvalue="Jest.Paginator component tests.pages count is 11 but should be showed only 10" />
+        <item itemvalue="Jest.ProfileStatus component.status from props should be in the state" />
+        <item itemvalue="Jest.ProfileStatus component.callback should be called" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3bfd9925-d026-4dc1-8bfe-3986659ba4b4" name="Default Changelist" comment="" />
+      <created>1587117235094</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587117235094</updated>
+      <workItem from="1587117238834" duration="5887000" />
+      <workItem from="1587201328157" duration="8883000" />
+      <workItem from="1587282761166" duration="8870000" />
+      <workItem from="1587370010697" duration="10475000" />
+      <workItem from="1587477691436" duration="4155000" />
+      <workItem from="1587550098776" duration="6497000" />
+      <workItem from="1587802024329" duration="16163000" />
+      <workItem from="1587899078339" duration="6330000" />
+      <workItem from="1587978772962" duration="14144000" />
+      <workItem from="1588150534163" duration="8463000" />
+      <workItem from="1588332922948" duration="663000" />
+      <workItem from="1588429861768" duration="35000" />
+      <workItem from="1588430086986" duration="2132000" />
+      <workItem from="1588501306658" duration="8748000" />
+      <workItem from="1588585829700" duration="10454000" />
+      <workItem from="1588683010729" duration="6866000" />
+      <workItem from="1588773304353" duration="4412000" />
+      <workItem from="1588860840317" duration="1351000" />
+      <workItem from="1588938587648" duration="4516000" />
+      <workItem from="1589024830246" duration="6744000" />
+      <workItem from="1589294666807" duration="633000" />
+      <workItem from="1589792012164" duration="118000" />
+      <workItem from="1589792336007" duration="552000" />
+      <workItem from="1589792952637" duration="94000" />
+      <workItem from="1589793472025" duration="126000" />
+      <workItem from="1589793620160" duration="246000" />
+      <workItem from="1589793937939" duration="16000" />
+      <workItem from="1589793981308" duration="8187000" />
+      <workItem from="1589893986690" duration="6108000" />
+      <workItem from="1589962368194" duration="14410000" />
+      <workItem from="1590053441809" duration="5955000" />
+      <workItem from="1590149852963" duration="9318000" />
+      <workItem from="1590227381163" duration="6956000" />
+      <workItem from="1590245060260" duration="5934000" />
+      <workItem from="1590310731537" duration="3784000" />
+      <workItem from="1590393086804" duration="783000" />
+      <workItem from="1590426857904" duration="3978000" />
+      <workItem from="1590494963281" duration="2580000" />
+      <workItem from="1590604258767" duration="5828000" />
+      <workItem from="1590684870281" duration="4826000" />
+      <workItem from="1590743680825" duration="8123000" />
+      <workItem from="1590761963282" duration="6401000" />
+      <workItem from="1590834682996" duration="12362000" />
+      <workItem from="1590913910187" duration="12562000" />
+      <workItem from="1590996990520" duration="7403000" />
+      <workItem from="1591024668858" duration="9883000" />
+      <workItem from="1591085917180" duration="1619000" />
+      <workItem from="1591088380773" duration="7529000" />
+      <workItem from="1591098250522" duration="428000" />
+      <workItem from="1591098712928" duration="1881000" />
+      <workItem from="1591177823107" duration="11239000" />
+      <workItem from="1591346124814" duration="1715000" />
+      <workItem from="1591371978362" duration="4418000" />
+      <workItem from="1591433411143" duration="11668000" />
+      <workItem from="1591547641356" duration="7961000" />
+      <workItem from="1591609110756" duration="9127000" />
+      <workItem from="1591692208011" duration="5156000" />
+      <workItem from="1591809195484" duration="3281000" />
+      <workItem from="1591860877046" duration="14531000" />
+      <workItem from="1591950537230" duration="97000" />
+      <workItem from="1591952220748" duration="72000" />
+      <workItem from="1592906808894" duration="117000" />
+      <workItem from="1592906961634" duration="120000" />
+      <workItem from="1592907375910" duration="198000" />
+      <workItem from="1592907589281" duration="21000" />
+      <workItem from="1592908688259" duration="14162000" />
+      <workItem from="1592989408600" duration="10241000" />
+      <workItem from="1593068087107" duration="1492000" />
+      <workItem from="1593153181771" duration="9499000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/react-kbazda-kak/projects/01-first-project/react-kabzda-1" />
+    </ignored-roots>
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="161" key="#Plugins" timestamp="1590245104264">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="161" key="#Plugins/0.0.1920.1040@0.0.1920.1040" timestamp="1590245104264" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589979965638">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589979965638" />
+    <state x="724" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591097968261">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="724" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1591097968261" />
+    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1591950592850">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591950592850" />
+    <state x="766" y="0" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1590056418259">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="766" y="0" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590056418259" />
+    <state width="652" height="466" key="DebuggerActiveHint" timestamp="1592915854464">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="652" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1592915854464" />
+    <state x="180" y="86" key="DiffContextDialog" timestamp="1588152001239">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="180" y="86" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588152001239" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1591952237455">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1591952237455" />
+    <state width="1899" height="374" key="GridCell.Tab.0.bottom" timestamp="1593195586540">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="374" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593195586540" />
+    <state width="1899" height="374" key="GridCell.Tab.0.center" timestamp="1593195586540">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="374" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593195586540" />
+    <state width="1899" height="374" key="GridCell.Tab.0.left" timestamp="1593195586519">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="374" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593195586519" />
+    <state width="1899" height="374" key="GridCell.Tab.0.right" timestamp="1593195586540">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="374" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593195586540" />
+    <state width="1899" height="330" key="GridCell.Tab.1.bottom" timestamp="1592942166572">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="330" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592942166572" />
+    <state width="1899" height="330" key="GridCell.Tab.1.center" timestamp="1592942166571">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="330" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592942166571" />
+    <state width="1899" height="330" key="GridCell.Tab.1.left" timestamp="1592942166571">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="330" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592942166571" />
+    <state width="1899" height="330" key="GridCell.Tab.1.right" timestamp="1592942166572">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="330" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592942166571" />
+    <state width="1899" height="330" key="GridCell.Tab.2.bottom" timestamp="1592942166573">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="330" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592942166573" />
+    <state width="1899" height="330" key="GridCell.Tab.2.center" timestamp="1592942166572">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="330" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592942166572" />
+    <state width="1899" height="330" key="GridCell.Tab.2.left" timestamp="1592942166572">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="330" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592942166572" />
+    <state width="1899" height="330" key="GridCell.Tab.2.right" timestamp="1592942166572">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="330" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592942166572" />
+    <state width="1899" height="330" key="GridCell.Tab.3.bottom" timestamp="1592942166573">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="330" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592942166573" />
+    <state width="1899" height="330" key="GridCell.Tab.3.center" timestamp="1592942166573">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="330" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592942166573" />
+    <state width="1899" height="330" key="GridCell.Tab.3.left" timestamp="1592942166573">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="330" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592942166573" />
+    <state width="1899" height="330" key="GridCell.Tab.3.right" timestamp="1592942166573">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="330" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592942166573" />
+    <state x="637" y="222" key="RollbackChangesDialog" timestamp="1590156251763">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="637" y="222" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590156251763" />
+    <state x="400" y="253" width="998" height="708" key="SettingsEditor" timestamp="1593153479052">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="400" y="253" width="998" height="708" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1593153479052" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1590156272947">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1590156272947" />
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1590747841947">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590747841947" />
+    <state x="758" y="204" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1590150894600">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="758" y="204" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1590150894600" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1588774540559">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588774540559" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1588614244288">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588614244288" />
+  </component>
+</project>

@@ -1,0 +1,31 @@
+.nav {
+    grid-area: n;
+    background-color: burlywood;
+    padding: 20px;
+}
+
+.item a {
+    text-decoration: none;
+    color: white;
+}
+
+.item a.activeLink {
+    color: gold;
+}
+
+.friendBlock {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.friendItem {
+    display: inline-block;
+    width: 43px;
+    height: 43px;
+    border-radius: 50%;
+    background-color: coral;
+    margin-right: 10px;
+    text-decoration: none;
+    text-align: center;
+}
