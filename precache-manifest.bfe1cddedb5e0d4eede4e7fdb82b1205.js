@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bd2bbadf1a48a0aa373f128ae2fbbea2",
+    "revision": "b941fc8a6b3b325f497da643b17f50f4",
     "url": "/react-redux-project/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-redux-project/static/css/4.d574919e.chunk.css"
   },
   {
-    "revision": "1adb370512bc30cc9fad",
+    "revision": "06607b51867c111f3d1c",
     "url": "/react-redux-project/static/css/5.2c51fc35.chunk.css"
   },
   {
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-redux-project/static/css/6.928e7b5c.chunk.css"
   },
   {
-    "revision": "ea2ff2ab483c6e8793ff",
+    "revision": "617cc5c10680b724d4bd",
     "url": "/react-redux-project/static/css/main.e180efd6.chunk.css"
   },
   {
@@ -24,32 +24,32 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-redux-project/static/js/0.0901d8e5.chunk.js"
   },
   {
-    "revision": "27cd5ea27e68e77a3f55",
-    "url": "/react-redux-project/static/js/3.4d39859c.chunk.js"
+    "revision": "3f6664c433f44ca5bbdf",
+    "url": "/react-redux-project/static/js/3.15e373f6.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/react-redux-project/static/js/3.4d39859c.chunk.js.LICENSE.txt"
+    "url": "/react-redux-project/static/js/3.15e373f6.chunk.js.LICENSE.txt"
   },
   {
     "revision": "9dc4990106e3a9c242a9",
     "url": "/react-redux-project/static/js/4.ad8b8263.chunk.js"
   },
   {
-    "revision": "1adb370512bc30cc9fad",
-    "url": "/react-redux-project/static/js/5.9a840cc5.chunk.js"
+    "revision": "06607b51867c111f3d1c",
+    "url": "/react-redux-project/static/js/5.a6fc5794.chunk.js"
   },
   {
     "revision": "5be089a71cc9f0018808",
     "url": "/react-redux-project/static/js/6.c2f07fb6.chunk.js"
   },
   {
-    "revision": "ea2ff2ab483c6e8793ff",
-    "url": "/react-redux-project/static/js/main.ab078a90.chunk.js"
+    "revision": "617cc5c10680b724d4bd",
+    "url": "/react-redux-project/static/js/main.517757bc.chunk.js"
   },
   {
-    "revision": "ed7f441a4467e41df7a5",
-    "url": "/react-redux-project/static/js/runtime-main.205a8cd4.js"
+    "revision": "6022643085372d6604ba",
+    "url": "/react-redux-project/static/js/runtime-main.65128d98.js"
   },
   {
     "revision": "2cafed709c18a184f522683c52b2aa14",
