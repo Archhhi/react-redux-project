@@ -1,12 +1,165 @@
-.header {
-    grid-area: h;
-    background-color: green;
-}
-.header img {
-    width: 20px;
+a {
+    text-decoration: none;
 }
 
-.loginBlock {
+.header {
+    background-color: #000000;
+    padding: 0;
+}
+
+.headerContainer {
+    width: 1046px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.headerImg {
+    width: 70px;
+    height: 45px;
+    float: left;
+    margin-left: 21px;
+}
+
+.headerImg img {
+    width: 100%;
+    height: 100%;
+}
+
+.headerInputSearch {
+    display: inline-block;
+    width: 229px;
+    margin-top: 10px;
+    margin-left: 109px;
+}
+
+.headerInputSearch input {
+    width: 100%;
+    padding: 4px 25px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    background-image: url('../../assets/images/search.png');
+    background-repeat: no-repeat;
+    background-position: 5px;
+    background-color: #edeef0;
+}
+
+.loginButtonBlock {
+    display: block;
+    margin-right: 46px;
     float: right;
-    color: white;
+    margin-top: 0;
+    font-family: sans-serif Roboto;
+    letter-spacing: -0.7px;
+}
+
+.loginButtonBlocks {
+    display: block;
+    float: right;
+    cursor: pointer;
+    padding: 0 10px;
+}
+
+.loginButtonBlocks:hover {
+    background-color: #666666;
+}
+
+.loginButtonBlock:first-letter {
+    text-transform: uppercase;
+}
+
+.loginButtonBlockText {
+    display: inline;
+    color: #fafafa;
+    margin-top: 12px;
+    margin-right: 15px;
+    float: left;
+    font-weight: 500;
+}
+
+.loginButtonBlockImg {
+    display: inline-block;
+    width: 30px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-right: 5px;
+    float: left;
+}
+
+.loginButtonBlockImg img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.loginButtonBlockUnicode {
+    float: right;
+    display: inline-block;
+    color: #999999;
+    font-family: sans-serif;
+    font-size: 30px;
+    margin-top: 15px;
+    margin-right: 0;
+    max-height: 15px;
+}
+
+.dropDownMenu {
+    width: 170px;
+    padding: 0;
+    top: 50px;
+    right: 440px;
+    background-color: #ffffff;
+    position: absolute;
+    border-radius: 5px;
+    line-height: 26px;
+}
+
+.dropDownMenuItem {
+    padding: 0 20px;
+}
+
+.dropDownMenuHR {
+    display: block;
+    margin: 10px auto 10px auto;
+    width: 90%;
+    border-top: 1px solid #cccccc;
+}
+
+.dropDownMenuText {
+    display: inline;
+    color: #000000;
+    margin-top: 12px;
+    float: left;
+    font-weight: 500;
+}
+
+.dropDownMenuImg {
+    display: inline-block;
+    width: 30px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-right: 12px;
+    float: left;
+}
+
+.dropDownMenuImg img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.dropDownMenuOption span {
+    width: 100%;
+    display: block;
+    color: black;
+    clear: both;
+    cursor: pointer;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.dropDownMenuOption span:hover {
+    background-color: #e6e6e6;
+}
+
+.clear {
+    clear: both;
 }

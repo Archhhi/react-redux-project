@@ -1,5 +1,5 @@
 import React from "react";
-import { Field, reduxForm } from "redux-form";
+import { reduxForm } from "redux-form";
 import { connect } from "react-redux";
 import { login } from "../../redux/auth-reducer";
 import { Input, createField } from "../common/FormsControls/FormControls";
@@ -9,7 +9,7 @@ import style from "./../common/FormsControls/FormsControls.module.css";
 
 const LoginForm = ({ handleSubmit, error }) => {
     return (
-        <form onSubmit={handleSubmit} >
+        <form onSubmit={handleSubmit}>
             {createField('Email', 'email', [required], Input, { type: 'text' })}
             {createField('Password', 'password', [required], Input, { type: 'password' })}
             {createField(null, 'rememberMe', [], Input, { type: 'checkbox' }, 'remember me')}
@@ -27,6 +27,7 @@ const LoginForm = ({ handleSubmit, error }) => {
 const LoginReduxForm = reduxForm({ form: 'login' })(LoginForm)
 
 const Login = (props) => {
+
     const onSubmit = (formData) => {
         props.login(formData.email, formData.password, formData.rememberMe);
     }

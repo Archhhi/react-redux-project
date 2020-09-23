@@ -1,31 +1,39 @@
 .nav {
-    grid-area: n;
-    background-color: burlywood;
-    padding: 20px;
+    width: 150px;
+    margin-top: 15px;
+    line-height: 30px;
+    float: left;
 }
 
-.item a {
-    text-decoration: none;
-    color: white;
+.item {
+    width: 130px;
+    padding: 0 10px;
+    border-radius: 2px;
 }
 
-.item a.activeLink {
-    color: gold;
+.item:hover {
+    background-color: #e1e3e6;
 }
 
-.friendBlock {
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.friendItem {
+.itemPhoto {
     display: inline-block;
-    width: 43px;
-    height: 43px;
-    border-radius: 50%;
-    background-color: coral;
-    margin-right: 10px;
-    text-decoration: none;
+    width: 16px;
     text-align: center;
+    margin-right: 11px;
+}
+
+.itemPhoto img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.itemLink {
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+    color: #2a5885;
+    font-size: 14px;
+    font-family: sans-serif Roboto;
+    font-weight: 400;
+    letter-spacing: -0.5px;
 }

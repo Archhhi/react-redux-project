@@ -1,7 +1,665 @@
-.descriptionBlock {
-    padding: 20px;
+.profileInfoBlock {
+    width: 100%;
+    margin-left: 15px;
 }
 
-.selectedPage {
+.profileColumnLeft  {
+    width: 230px;
+    float: left;
+}
+
+.imgBlock {
+    width: 100%;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-sizing: border-box;
+    -webkit-box-shadow: 0px 0px 5px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px -4px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px -4px rgba(0,0,0,0.75);
+}
+
+.imgBlock img {
+    width: 100%;
+    border-radius: 3px;
+}
+
+.editProfile {
+    padding: 8px 10px;
+    font-size: 14px;
+    background-color: #edeef0;
+    font-family: sans-serif Roboto;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.imgBlock a:active {
+    color: #000000;
+}
+
+.showBlock {
+    display: block;
+    position: absolute;
+    width: 170px;
+    padding: 10px 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: -65px;
+}
+
+.showBlock span {
+    font-size: 14px;
+    font-family: sans-serif Roboto;
+    color: #cccccc;
+}
+
+.updatePhoto {
+
+}
+
+.updatePhotoIcon {
+    width: 15px;
+    height: 12px;
+}
+
+.updatePhotoIcon img {
+    width: 100%;
+    height: 100%;
+}
+
+.deletePhoto {
+
+}
+
+.editProfile:hover {
+    background-color: #e5ebf1;
+}
+
+.infoBlock {
+    width: 515px;
+    min-height: 200px;
+    padding: 15px 20px 12px 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    float: right;
+    -webkit-box-shadow: 0px 0px 5px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px -4px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px -4px rgba(0,0,0,0.75);
+}
+
+.infoBlockName {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.dropDownMenuHR {
+    display: block;
+    margin: 10px auto 10px auto;
+    width: 100%;
+    border-top: 1px solid #e6e6e6;
+}
+
+.infoBlockStatus {
+    font-size: 14px;
+    font-family: sans-serif Roboto;
+}
+
+.profileDataAboutMe {
+    font-size: 14px;
+    font-family: sans-serif Roboto;
+}
+
+.aboutMeSpan_1 {
+    display: inline-block;
+    width: 146px;
+}
+
+.dropDownMenuData {
+    display: block;
+}
+
+.dropDownButton {
+    width: 100%;
+    font-size: 14px;
+    font-family: sans-serif Roboto;
+    word-spacing: 1px;
+    padding: 7px 7px 7px 150px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.dropDownButton span {
+    text-align: left;
+}
+
+.dropDownButton:hover {
+    background-color: #edeef0;
+}
+
+.menuData {
+    line-height: 1.8;
+    font-size: 14px;
+    font-family: sans-serif Roboto;
+    word-spacing: 1px;
+    text-align: left;
+}
+
+.menuDataSpan_1 {
+    display: inline-block;
+    width: 146px;
+}
+
+.infoItemsBlock {
+    width: 100%;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.infoItem {
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    font-family: sans-serif Roboto;
+}
+
+.infoItemSpanNumber {
+    display: block;
+    font-size: 20px;
+}
+
+.infoItemSpanText {
+    display: block;
+    font-size: 14px;
+    font-family: sans-serif Roboto;
+}
+
+.photosContainer {
+    width: 515px;
+    min-height: 150px;
+    padding: 12px 20px 20px 20px;
+    margin-top: 15px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    float: right;
+    -webkit-box-shadow: 0px 0px 5px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px -4px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px -4px rgba(0,0,0,0.75);
+}
+
+.quantityPhotos {
+    font-size: 14px;
+    font-family: sans-serif Roboto;
+}
+
+.photosBlock {
+    width: 100%;
+    margin-top: 15px;
+}
+
+.photo {
+    width: 130px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.photo img {
+    width: 100%;
+}
+
+.columnLeftFriends {
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 10px 15px 10px 15px;
+    margin-top: 16px;
+    -webkit-box-shadow: 0px 0px 5px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px -4px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px -4px rgba(0,0,0,0.75);
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.columnFriendsTextBlock {
+    text-align: left;
+    margin-bottom: 12px;
+}
+
+.columnFriendsTextBlock span {
+    font-size: 14px;
+    font-family: sans-serif Roboto;
+    margin-left: 5px;
+}
+
+.friendBlock {
+    display: inline-block;
+    width: 65px;
+}
+
+.friendImgBlock {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #edeef0;
+    line-height: 44px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.friendImgBlock img {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
+
+.friendNameBlock {
+    display: inline-block;
+    width: 50px;
+    overflow-x:hidden;
+    white-space: nowrap;
+    margin-bottom: 7px;
+    cursor: pointer;
+}
+
+.friendNameBlock:first-letter {
+    text-transform: uppercase;
+}
+
+.friendNameBlock span {
+    font-size: 12px;
+    font-family: sans-serif Roboto;
+    color: #000000;
+}
+
+.friendNameBlock span:hover {
+    text-decoration: underline;
+}
+
+.postsAddContainer {
+    width: 515px;
+    padding: 8px 20px 8px 20px;
+    margin-top: 15px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    float: right;
+    -webkit-box-shadow: 0 0 5px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0 0 5px -4px rgba(0,0,0,0.75);
+    box-shadow: 0 0 5px -4px rgba(0,0,0,0.75);
+}
+
+.postsAddContainer a {
+    display: inline-block;
+    width: 28px;
+    float: left;
+}
+
+.postsImgBlock {
+    width: 28px;
+    height: 28px;
+    border-radius: 50px;
+    line-height: 32px;
+}
+
+.postsImgBlock img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    vertical-align: middle;
+}
+
+.postsInputBlock {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.postsInputBlock textarea {
+    width: 300px;
+    max-height: 25px;
+    vertical-align: middle;
+    outline: none;
+    border: none;
+    line-height: 25px;
+    padding: 5px 15px;
+    resize: none;
+    font-size: 14px;
+    font-family: sans-serif Roboto;
+    word-spacing: -5px;
+}
+
+.addPostBlock {
+    display: inline-block;
+    float: right;
+    vertical-align: middle;
+    line-height: 33px;
+}
+
+.addPostBlock button {
+    border: none;
+    padding: 5px 15px;
+    border-radius: 15px;
+    font-family: sans-serif Roboto;
+    background-color: #edeef0;
+}
+
+.addPostBlock button:hover {
+    background-color: #e5ebf1;
+    cursor: pointer;
+}
+
+.postsContainer {
+    width: 515px;
+    float: right;
+}
+
+.postsContainerText {
+    width: 515px;
+    display: inline-block;
+    float: right;
+    margin-top: 15px;
+    padding: 12px 20px 0 20px;
+    text-align: left;
+    background-color: #ffffff;
+    border-radius: 5px 5px 0 0;
+}
+
+.postsContainerText span {
+    font-size: 14px;
+    font-family: sans-serif Roboto;
+}
+
+.postBlock {
+    width: 515px;
+    padding: 12px 20px 12px 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    float: right;
+    -webkit-box-shadow: 0 0 5px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0 0 5px -4px rgba(0,0,0,0.75);
+    box-shadow: 0 0 5px -4px rgba(0,0,0,0.75);
+    margin-bottom: 15px;
+}
+
+.postBlock:nth-child(1) {
+    border-radius: 0 0 5px 5px;
+    padding-top: 0;
+}
+
+.postsBL {
+    width: 100%;
+    line-height: 18px;
+    height: 60px;
+}
+
+.postsMyImg {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+    border-radius: 50px;
+    float: left;
+}
+
+.postsMyImg img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+}
+
+.postsInfo {
+    margin-left: 63px;
+    padding-top: 10px;
+}
+
+.postsMyName {
+    display: block;
+}
+
+.postsMyName span {
+    font-size: 14px;
+    font-family: sans-serif Roboto;
+    font-weight: 600;
+}
+
+.postsDate {
+    display: block;
+}
+
+.postsDate span {
+    font-size: 14px;
+    font-family: sans-serif Roboto;
+    color: #939393;
+}
+
+.postsBlock {
+    width: 100%;
+}
+
+.postsText {
+    padding: 10px 0;
+}
+
+.postsText span {
+    font-size: 15px;
+    font-family: sans-serif Roboto;
+}
+
+.postsImg {
+    width: auto;
+    height: auto;
+}
+
+.postsImg img {
+    max-width: 100%;
+}
+
+.postsActiveBlock {
+}
+
+.postLikes {
+}
+
+.one path {
+    fill: #909090;
+    cursor: pointer;
+}
+
+.one .active path {
+    fill: #f00;
+}
+
+.currentLikesBlock {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 2px;
+}
+
+.editDataFormBlock {
+    display: block;
+    width: 774px;
+    background-color: #ffffff;
+    border-radius: 3px;
+    float: left;
+    margin-top: 15px;
+    padding: 12px 20px 0 20px;
+}
+
+.titleEditFormBlock {
+    margin-bottom: 15px;
+}
+
+.titleEditForm {
+    color: #000000;
+    font-family: sans-serif Roboto;
+    font-size: 18px;
+}
+
+.editFormBlock {
+    text-align: center;
+}
+
+.baseBlock {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.itemField {
+    display: block;
+    margin-top: 10px;
+}
+
+.itemInputName {
+    display: inline-block;
+    width: 34%;
+    text-align: right;
+    padding-right: 6px;
+}
+
+.itemTextareaName {
+    display: inline-block;
+    width: 34%;
+    float: left;
+    text-align: right;
+    padding-right: 6px;
+    vertical-align: center;
+    line-height: 90px;
+}
+
+.itemInput {
+    display: inline-block;
+    width: 64%;
+    text-align: left;
+    padding-left: 6px;
+}
+
+.itemTextarea {
+    display: inline-block;
+    width: 64%;
+    text-align: left;
+    padding-left: 6px;
+}
+
+.itemField label {
+    font-family: sans-serif Roboto;
+    font-size: 14px;
+    color: #656565;
+}
+
+.itemField input {
+    font-family: sans-serif Roboto;
+    font-size: 14px;
+    width: 300px;
+    padding: 8px;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    color: #656565;
+    outline: none;
+}
+
+.itemField input:focus {
+    border: 1px solid #333333;
+}
+
+.itemField textarea {
+    font-family: sans-serif Roboto;
+    font-size: 14px;
+    width: 300px;
+    height: 80px;
+    padding: 8px;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    color: #656565;
+    resize: none;
+    outline: none;
+}
+
+.itemField textarea:focus {
+    border: 1px solid #333333;
+}
+
+.contactsBlock {
+    margin-bottom: 20px;
+}
+
+.contactsTitleBlock {
+    text-align: left;
+}
+
+.contactsTitle {
+    color: #000000;
+    font-family: sans-serif Roboto;
+    font-size: 18px;
+}
+
+.errorMessage {
+    width: 27%;
+    color: red;
+    font-size: 12px;
+    font-family: sans-serif Roboto;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.saveInfoButton {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    color: #ffffff;
+    font-size: 14px;
+    font-family: sans-serif Roboto;
+    padding: 10px 34px 10px 34px;
+    background-color: black;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.saveInfoButton:hover {
+    background-color: #333333;
+}
+
+.successSave {
+    display: flex;
+    width: 100%;
+    padding: 8px 12px;
+    background-color: #def0d3;
+    box-sizing: border-box;
+    border-radius: 3px;
+    align-items: center;
+}
+
+.imgOk {
+    width: 32px;
+    height: 32px;
+    float: left;
+    margin-top: 2px;
+}
+
+.imgOk img {
+    width: 100%;
+    height: 100%;
+}
+
+.successText {
+    margin-left: 15px;
+    float: left;
+}
+
+.successText span:first-child {
+    font-size: 13px;
+    font-family: sans-serif Roboto;
     font-weight: bold;
+}
+
+.successText span:last-child {
+    font-size: 13px;
+    font-family: sans-serif Roboto;
+}
+
+.clear {
+    clear: both;
 }
